@@ -1,0 +1,23 @@
+{
+	"name": "smartcode",
+	"version": "0.0.1",
+	"description": "Generate code using Markov chains on syntax trees",
+	"attachments": [
+		"static",
+		"static-lib/escodegen/escodegen.browser.js"
+	],
+	"modules": ["lib", "views"],
+	"dust": { "templates": "templates" },
+	"load": "lib/app",
+	"dependencies": {
+		"coffee-script-precompiler": null,
+		"attachments": null,
+		"modules": null,
+		"properties": null,
+		"dust": null
+	},
+	"coffee-script": {
+		"modules": ["lib", "views"],
+		"attachments": ["static"]
+	}
+}

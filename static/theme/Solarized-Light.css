@@ -1,0 +1,65 @@
+  .hi {
+    background: #fdf6e3;color: #657b83; }
+  
+  .hi *::selection {
+    background: rgba(7, 54, 66, 0.2); }
+  .hi li::selection {
+    background: rgba(7, 54, 66, 0.2); }
+
+  .hi-search    { background: rgba(255, 255, 255, 0.4); }
+  .hi-emphasize {  }
+  
+  .hi-gutter {
+    background: #eee8d5;color: #657b83; }
+  .hi-gutter > span.current-middle {
+    background: #fdf6e3;border-color: #93a1a1; }
+  .hi-gutter > span.current-top {
+    border-width: 1px 0px 0px;
+    border-style: solid;
+    margin:       -1px 0px 0px;
+    background: #fdf6e3;border-color: #93a1a1; }
+  .hi-gutter > span.current-bottom {
+    border-width: 0px 0px 1px;
+    border-style: solid;
+    margin:       0px 0px -1px;
+    background: #fdf6e3;border-color: #93a1a1; }
+  .hi-gutter > span.current {
+    border-width: 1px 0px;
+    border-style: solid;
+    margin:       -1px 0px;
+    background: #fdf6e3;border-color: #93a1a1; }.hi-comment { color: #93a1a1;font-style: italic; }
+.hi-constant { color: #859900; }
+.hi-constant-builtin { color: #dc322f; }
+.hi-constant-numeric { color: #d33682; }
+.hi-constant-character { color: #a5c261; }
+.hi-constant-symbol { color: #6c99bb; }
+.hi-entity { color: #b58900; }
+.hi-entity-builtin {  }
+.hi-entity-class {  }
+.hi-entity-function { color: #268bd2; }
+.hi-entity-tag { color: #268bd2; }
+.hi-entity-tag-class {  }
+.hi-entity-tag-id {  }
+.hi-entity-tag-attribute { color: #657b83; }
+.hi-entity-type { color: #da4939; }
+.hi-invalid { border-bottom: 1px solid #da4939; }
+.hi-keyword { color: #cb4b16; }
+.hi-keyword-operator {  }
+.hi-markup-bold { font-weight: bold; }
+.hi-markup-code {  }
+.hi-markup-header { color: #cb4b16;font-weight: bold; }
+.hi-markup-italic { font-style: italic; }
+.hi-markup-link { text-decoration: underline; }
+.hi-markup-list { color: #d33682; }
+.hi-markup-underline { text-decoration: underline; }
+.hi-string { color: #2aa198; }
+.hi-string-escape { color: #cb4b16; }
+.hi-string-interpol { color: #cb4b16; }
+.hi-string-regexp {  }
+.hi-support { color: #859900; }
+.hi-support-class {  }
+.hi-support-constant {  }
+.hi-support-function {  }
+.hi-support-type {  }
+.hi-variable { color: #6c71c4; }
+.hi-variable-instance {  }

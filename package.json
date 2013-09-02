@@ -1,0 +1,19 @@
+{
+  "name": "smartcode",
+  "version": "0.0.1",
+  "description": "Generate code using Markov chains on syntax trees",
+  "dependencies": {
+    "escodegen": "~0.0.24",
+    "esprima": "~1.0.3"
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "keywords": [
+    "markov",
+    "couchdb",
+    "ast"
+  ],
+  "author": "Charles Lehner",
+  "license": "MIT"
+}

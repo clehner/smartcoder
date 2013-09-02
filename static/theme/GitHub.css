@@ -1,0 +1,65 @@
+  .hi {
+    background: white;color: black; }
+  
+  .hi *::selection {
+    background: rgba(0, 70, 255, 0.25); }
+  .hi li::selection {
+    background: rgba(0, 70, 255, 0.25); }
+
+  .hi-search    { background: rgba(255, 174, 0, 0.4); }
+  .hi-emphasize {  }
+  
+  .hi-gutter {
+    background: #ececec;color: #aaa; }
+  .hi-gutter > span.current-middle {
+    background: #f5f5f5;border-color: #ccc; }
+  .hi-gutter > span.current-top {
+    border-width: 1px 0px 0px;
+    border-style: solid;
+    margin:       -1px 0px 0px;
+    background: #f5f5f5;border-color: #ccc; }
+  .hi-gutter > span.current-bottom {
+    border-width: 0px 0px 1px;
+    border-style: solid;
+    margin:       0px 0px -1px;
+    background: #f5f5f5;border-color: #ccc; }
+  .hi-gutter > span.current {
+    border-width: 1px 0px;
+    border-style: solid;
+    margin:       -1px 0px;
+    background: #f5f5f5;border-color: #ccc; }.hi-comment { color: #998;font-style: italic; }
+.hi-constant { color: teal; }
+.hi-constant-builtin { color: teal; }
+.hi-constant-numeric { color: #099; }
+.hi-constant-character { color: #d14; }
+.hi-constant-symbol { color: #990073; }
+.hi-entity { color: #445588; }
+.hi-entity-builtin { color: #0086B3; }
+.hi-entity-class { color: #458;font-weight: bold; }
+.hi-entity-function { color: #900;font-weight: bold; }
+.hi-entity-tag { color: navy; }
+.hi-entity-tag-class { color: #458; }
+.hi-entity-tag-id { color: #900;font-weight: bold; }
+.hi-entity-tag-attribute { color: teal; }
+.hi-entity-type { color: #458;font-weight: bold; }
+.hi-invalid { border-bottom: 1px solid #da4939; }
+.hi-keyword { color: #000;font-weight: bold; }
+.hi-keyword-operator {  }
+.hi-markup-bold { font-weight: bold; }
+.hi-markup-code {  }
+.hi-markup-header { color: #222;font-weight: bold; }
+.hi-markup-italic { font-style: italic; }
+.hi-markup-link { text-decoration: underline; }
+.hi-markup-list { font-weight: bold; }
+.hi-markup-underline { text-decoration: underline; }
+.hi-string { color: #d14; }
+.hi-string-escape { color: purple; }
+.hi-string-interpol {  }
+.hi-string-regexp { color: #009926; }
+.hi-support { color: teal; }
+.hi-support-class {  }
+.hi-support-constant {  }
+.hi-support-function {  }
+.hi-support-type {  }
+.hi-variable { color: teal; }
+.hi-variable-instance { color: teal; }

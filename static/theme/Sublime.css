@@ -1,0 +1,59 @@
+  .hi {
+    background: #272822;color: white; }
+  
+  .hi *::selection {
+    background: rgba(69, 68, 59, 0.45); }
+  .hi li::selection {
+    background: rgba(69, 68, 59, 0.45); }
+
+  .hi-search    { background: rgba(255, 255, 255, 0.4); }
+  .hi-emphasize { background: rgba(255, 255, 255, 0.08);border: 1px solid rgba(255, 255, 255, 0.35);margin-left: -1px;margin-top: -1px; }
+  
+  .hi-gutter {
+    background: #272822;color: #8f908a; }
+  .hi-gutter > span.current-middle {
+    background: #3e3d32;border-color: #545344; }
+  .hi-gutter > span.current-top {
+    border-width: 1px 0px 0px;
+    border-style: solid;
+    margin:       -1px 0px 0px;
+    background: #3e3d32;border-color: #545344; }
+  .hi-gutter > span.current-bottom {
+    border-width: 0px 0px 1px;
+    border-style: solid;
+    margin:       0px 0px -1px;
+    background: #3e3d32;border-color: #545344; }
+  .hi-gutter > span.current {
+    border-width: 1px 0px;
+    border-style: solid;
+    margin:       -1px 0px;
+    background: #3e3d32;border-color: #545344; }.hi-comment { color: #5c5848; }
+.hi-constant { color: #60d6ef; }
+.hi-constant-builtin { color: #9064b8; }
+.hi-constant-numeric { color: #9064b8; }
+.hi-constant-character { color: #e6db74; }
+.hi-constant-symbol { color: #9064b8; }
+.hi-entity { color: #ffc66d; }
+.hi-entity-builtin { color: #60d6ef; }
+.hi-entity-class { color: #a6cc29; }
+.hi-entity-function { color: #a6cc29; }
+.hi-entity-tag { color: #f9266b; }
+.hi-entity-tag-class { color: #a6cc29; }
+.hi-entity-tag-id { color: #60d6ef; }
+.hi-entity-tag-attribute { color: #a6cc29; }
+.hi-entity-type { color: #60d6ef; }
+.hi-invalid { border-bottom: 1px solid #da4939; }
+.hi-keyword { color: #f9266b; }
+.hi-markup-bold { font-weight: bold; }
+.hi-markup-code {  }
+.hi-markup-header { color: #f9266b; }
+.hi-markup-italic { font-style: italic; }
+.hi-markup-link { text-decoration: underline; }
+.hi-markup-list { color: #60d6ef; }
+.hi-markup-underline { text-decoration: underline; }
+.hi-string { color: #e6db74; }
+.hi-string-escape { color: #9064b8; }
+.hi-string-interpol { color: #9064b8; }
+.hi-string-regexp { color: #9064b8; }
+.hi-support { color: #60d6ef; }
+.hi-variable { color: #fd971f; }
